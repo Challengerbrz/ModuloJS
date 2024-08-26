@@ -1,0 +1,27 @@
+.div-principal{
+    display: grid;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    place-items: center;
+    max-width: 200px;
+    max-height: 200px;  
+
+    
+}
+
+
+input{
+    display:flex;
+    position: relative;
+    align-items: center;
+}
+
+#botao{
+    display:flex;
+    position: relative;
+    align-items: center;
+    right: -60px;
+    
+    
+}

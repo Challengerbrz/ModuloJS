@@ -1,8 +1,4 @@
 //agenda de contatos
-
-//up
-
-
 const form = document.getElementById('formulario');
 let linhas = ''
 

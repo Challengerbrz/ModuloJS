@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Agenda</title>
+</head>
+<body>
+    <header>
+        <h1>Agenda de Contatos</h1>
+        <form id="formulario">
+            <input type="text" placeholder="Nome" id="contato" maxlength="10" minlength="3" required="required" pattern="[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$">
+            <input type="number" placeholder="Telefone" id="numero">
+            <button type="submit">Cadastrar</button>
+        </form id='formulario'>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Contato</th>
+                    </tr>
+                </thead>
+                <tbody class="lista">
+                    <tr></tr>
+                </tbody>
+                <tfoot>
+
+                </tfoot>
+            </table>
+    </header>
+
+    <footer>
+
+    </footer>
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+#formulario{
+    display: flex;
+    margin-left: -20px;
+    justify-content: center;
+    margin-top: 20px;    
+}
+
+#formulario input, button{
+    position: relative;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+
+
+table {
+    display: block;
+    border: 1px solid red;
+    width: 475px;
+    height: 300px;
+    margin-left: 383px;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+thead {
+    display: block;
+    align-items:top;
+    width: 475px;
+    height: 25px;
+    margin-left: 5px;
+}
+
+th {
+    display: inline-flex;
+    align-items: center;
+    color: black;
+    padding-left: 100px;
+    margin-left: 20px;
+}
+    
+table tbody{
+    display: block;
+
+}
+
+
+.lista tr td{
+    display: inline;
+    margin-left: 100px;
+    padding-left: 20px;
+    color: red;
+}
+
+
